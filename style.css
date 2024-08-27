@@ -1,0 +1,216 @@
+body {
+    height:auto;
+    width: auto;
+    background: #ffe3e3;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fd530a;
+}
+
+.main,.content,.info,.signup,.footer {
+    margin: 50px;
+    background: #ffbebe;
+    border-bottom: 10px solid #f99f9f;
+    border-right: 10px solid #f99f9f;
+    box-shadow: 15px 15px 15px #ff7373;
+    color: #fd530a;
+    text-align: center;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.main ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main ul li h5 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main ul li {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+.main ul .right {
+    justify-content: right;
+}
+
+.main h1,.content h1,.info h1,.signup h2 {
+    display: inline-flex;
+    padding: 5px;
+    margin-bottom: 5px;
+    background: #ffe3e3;
+    border-bottom: 5px solid #fec8c8;
+    border-right: 5px solid #fec8c8;
+    box-shadow: 10px 10px 10px #fd4f4f;
+    border-radius: 20px;
+    
+}
+
+.main h1 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.main p,.signup p,.footer p  {
+    padding: 5px;
+    margin-top: 15px;
+    background: #ffe3e3;
+    border-bottom: 5px solid #fec8c8;
+    border-right: 5px solid #fec8c8;
+    box-shadow: 8px 8px 8px #fd4f4f;
+    border-radius: 15px;
+}
+
+.main h5 {
+    display: inline-flex;
+    padding: 50px;
+    margin-bottom: 5px;
+    background: #ffe3e3;
+    border-bottom: 6px solid #fec8c8;
+    border-right: 6px solid #fec8c8;
+    box-shadow: 10px 10px 10px #fd4f4f;
+    border-radius: 50%;   
+}
+
+.info ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info ul li h4 {
+    padding: 5px;
+    margin-top: 15px;
+    background: #ffe3e3;
+    border-bottom: 5px solid #fec8c8;
+    border-right: 5px solid #fec8c8;
+    box-shadow: 8px 8px 8px #fd4f4f;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.info ul li p {
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    background: #ffe3e3;
+    border-bottom: 5px solid #fec8c8;
+    border-right: 5px solid #fec8c8;
+    box-shadow: 8px 8px 8px #fd4f4f;
+    border-radius: 15px;
+    font-size: medium;
+    padding-bottom: 0;
+}
+
+.about-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.content ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content ul li {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 25px;
+    background: #ffe3e3;
+    border-bottom: 8px solid #fec8c8;
+    border-right: 8px solid #fec8c8;
+    box-shadow: 15px 15px 15px #fd4f4f;
+    border-radius: 40px;
+}
+
+.content ul li img {
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #ffbebe;
+    border-bottom: 6px solid #f99f9f;
+    border-right: 6px solid #f99f9f;
+    box-shadow: 10px 10px 10px #ff7373;
+}
+
+.content ul li li p {
+
+    margin: 5px 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background: #ffbebe;
+    border-bottom: 6px solid #f99f9f;
+    border-right: 6px solid #f99f9f;
+    box-shadow: 8px 8px 8px #ff7373;
+    border-radius: 20px;
+}
+
+.content ul li div {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+}
+
+.content ul li div p {
+    display: block;
+    background: #ffbebe;
+    border-bottom: 6px solid #f99f9f;
+    border-right: 6px solid #f99f9f;
+    box-shadow: 8px 8px 8px #ff7373;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.signup {
+    padding: 50px 250px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup div p a,.rateus-btn {
+    padding: 50px;
+    font-size: large;
+    font-weight: normal;
+}
+
+.rateus {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.footer-msg {
+    display: inline-block;
+}
+
+a:hover {
+    color: aquamarine;
+}
