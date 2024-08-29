@@ -211,6 +211,7 @@ a {
     display: inline-block;
 }
 
+
 .link:hover {
     border-bottom: 2px solid #fec8c8;
     border-right: 2px solid #fec8c8;
@@ -222,4 +223,8 @@ a {
     background-image: url('IMG-20240829-WA0000.jpg');
     background-size: contain;
     padding: 100px;
+}
+
+.main ul li p,.signup div p.link,.footer div p.link {
+    border-radius: 0;
 }
